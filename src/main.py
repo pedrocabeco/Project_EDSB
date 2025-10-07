@@ -6,6 +6,10 @@ from sklearn.model_selection import train_test_split
 
 print("✅ All libraries imported successfully!")
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+print("all set and ready to go!")
+>>>>>>> Stashed changes
 =======
 print("all set and ready to go!")
 >>>>>>> Stashed changes

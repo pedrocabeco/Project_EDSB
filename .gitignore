@@ -17,3 +17,8 @@ __pycache__/
 
 # VS Code settings
 .vscode/
+
+# Heavy data
+data/raw/
+*.csv
+*.xlsx

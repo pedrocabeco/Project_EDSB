@@ -13,7 +13,7 @@ We build a churn-risk model for a telecommunications operator, using customer-le
 
 
 
-##2. Data and main features
+## 2. Data and main features
 
 We use the **Telco Customer Churn** dataset provided in the course, split into five tables:
 

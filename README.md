@@ -41,6 +41,12 @@ The target variable is **`Churn Value`** (1 = churn, 0 = no churn).
 ├── .gitignore
 │
 ├── data
+│   ├── model_ready
+│   │   └── telco_churn_model_ready.csv
+│   │
+│   │── processed
+│   │   └── telco_churn_master.csv
+│   │
 │   ├── raw
 │   │   ├── Telco_customer_churn_demographics.csv
 │   │   ├── Telco_customer_churn_location.csv
@@ -55,14 +61,13 @@ The target variable is **`Churn Value`** (1 = churn, 0 = no churn).
 │       ├── Telco_customer_churn_services.xlsx
 │       └── Telco_customer_churn_status.xlsx
 │
-├── data_processed
-│   ├── telco_churn_master.csv
-│   └── telco_churn_model_ready.csv
-│
 ├── notebooks
-│   ├── 01_Load_data.ipynb
+│   ├── 01_Load_data_and_initial_EDA.ipynb
 │   ├── 02_MergingTables.ipynb
 │   ├── 03_EDA.ipynb
+│   ├── 03.1_M2M_Customers_Analysis.ipynb
+│   ├── 03.2_Churn_Reasons_M2M_Profile.ipynb
+│   ├── 03.3_Tenure_Analysis.ipynb
 │   ├── 04_FeatureEngineering.ipynb
 │   └── 05_Modelling.ipynb
 │
@@ -76,4 +81,3 @@ The target variable is **`Churn Value`** (1 = churn, 0 = no churn).
 │
 └── src
     └── convert_to_csv.py
-

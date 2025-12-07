@@ -34,3 +34,46 @@ The target variable is **`Churn Value`** (1 = churn, 0 = no churn).
 
 
 ## 3. Repository structure
+```text ... 
+
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── data
+│   ├── raw
+│   │   ├── Telco_customer_churn_demographics.csv
+│   │   ├── Telco_customer_churn_location.csv
+│   │   ├── Telco_customer_churn_population.csv
+│   │   ├── Telco_customer_churn_services.csv
+│   │   └── Telco_customer_churn_status.csv
+│   │
+│   └── xlsx_originals
+│       ├── Telco_customer_churn_demographics.xlsx
+│       ├── Telco_customer_churn_location.xlsx
+│       ├── Telco_customer_churn_population.xlsx
+│       ├── Telco_customer_churn_services.xlsx
+│       └── Telco_customer_churn_status.xlsx
+│
+├── data_processed
+│   ├── telco_churn_master.csv
+│   └── telco_churn_model_ready.csv
+│
+├── notebooks
+│   ├── 01_Load_data.ipynb
+│   ├── 02_MergingTables.ipynb
+│   ├── 03_EDA.ipynb
+│   ├── 04_FeatureEngineering.ipynb
+│   └── 05_Modelling.ipynb
+│
+├── reports
+│   └── profiling_raw_tables
+│       ├── demographics_profiling.html
+│       ├── location_profiling.html
+│       ├── population_profiling.html
+│       ├── services_profiling.html
+│       └── status_profiling.html
+│
+└── src
+    └── convert_to_csv.py
+
